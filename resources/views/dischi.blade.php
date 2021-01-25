@@ -16,13 +16,13 @@
 
         <div class="cds-container container">
 
-            @foreach ($records as $record)
+            @foreach ($records['response'] as $record)
 
                 <div class="cd">
-                    <img src="{{ $record['response']['poster'] }}" alt="" />
-                    <h3> {{ $record['response']['title']}}</h3>
-                    <span class="author">{{ $record['response']['author'] }}</span>
-                    <span class="year">{{ $record['response']['year']}}</span>
+                    <img src="{{ $record->poster }}" alt="" />
+                    <h3> {{ $record->title}}</h3>
+                    <span class="author">{{ $record->author}}</span>
+                    <span class="year">{{ $record->year}}</span>
                 </div>
             @endforeach
 
