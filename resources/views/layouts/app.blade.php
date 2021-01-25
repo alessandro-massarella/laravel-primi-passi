@@ -14,7 +14,7 @@
 
 @section('main')
 
-@show                   <!-- CHIUDO CON SHOW, ALTRIMENTI NON VERRREBBE VISUALIZZATA -->
+@show                   <!-- CHIUDO CON SHOW, ALTRIMENTI NON VERREBBE VISUALIZZATA -->
 
 
 @include('common.footer')
